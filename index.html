@@ -13,9 +13,16 @@
     <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
     <!-- jQuery from CDN -->
 
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous">
+    </script>
+
     <script type="text/javascript" src="js/app.js"></script>
 
     <!-- link to custom javascript file (always require after external JS libraries) -->
+
 
     <title>Tic Tac Toe</title>
   </head>
@@ -27,7 +34,6 @@
           <hr>
         </div>
       </div>
-      <div class="row">
 
         <!-- a column represents our game board -->
         <!-- the `offset` class helps us center the board -->
@@ -38,6 +44,7 @@
           <!-- you can put rows inside of columns! -->
           <!-- Bootstrap subdivides these 'nested' rows into 12 columns, too! -->
           <div class="row">
+
             <div class="col-md-4 box">a</div>
             <div class="col-md-4 box">a</div>
             <div class="col-md-4 box">a</div>
@@ -51,7 +58,6 @@
 
           <button type="button">Reset</button>
 
-        </div>
       </div>
     </div>
   </body>
